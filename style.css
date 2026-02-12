@@ -1,12 +1,13 @@
 .navbar {
-    display: flex; 
+    display: flex;
+    justify-content: flex-end;
     background-color: darkred;
     padding: 0; margin: 0;
 }
 
 .navbar ul {
     display: flex;
-
+    margin-right: 50px;
 }
 
 .navbar ul li {
@@ -38,4 +39,64 @@
     padding: 0;
     margin-right: 15px;
     margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Perfil button {
+    color: white;
+    background-color: darkred;
+    border: 4px solid darkred;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+
+.Perfil button:hover {
+    background-color: darkred;
+    transform: translateY(-2px);
+} 
+
+.rodape-principal {
+    background-color: darkred;
+    color: #ffffff;
+    padding: 40px 0 20px 0;
+    margin-top: 50px;
+}
+
+.container-rodape {
+display: flex;
+justify-content:space-around;
+align-items: center;
+flex-wrap: wrap;
+max-width: 1200px;
+margin: 0 auto;
+}
+
+.links-sociais a {
+color:#ffffff;
+text-decoration: none;
+margin: 0 15px;
+font-weight: bold;
+transition: 0.3s;
+}
+
+.links-sociais a:hover {
+    color:blue;
+    text-shadow: 0 0 5px rgba(255,255,255,0.2);
+}
+
+.rodape-inferior {
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 30px;
+    padding-top: 20px;
+    font-size: 12px;
+    opacity: 0.6;
+}
+
+.info-copyright p {
+    text-align: center;
+    margin: 5px 0;
 }
